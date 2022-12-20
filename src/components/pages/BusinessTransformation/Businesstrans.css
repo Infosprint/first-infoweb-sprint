@@ -1,0 +1,24 @@
+.i-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 58px;
+    color: #09098f;
+  }
+  .i-para{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+    color: #505050;
+  }
+  .b-paragraph{
+  font-weight: 400;
+  color: #8b8e93;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: "Open Sans", sans-serif;
+  }

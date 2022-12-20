@@ -1,0 +1,24 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Oswald:600,700');
+.product-img1{
+    width: 100%;
+    /* height: 65%; */
+}
+.info-text{
+  top: 50%;
+}
+.info-text p {
+    display: table-cell;
+    margin: 0;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+    padding: 16% 4%;
+    vertical-align: middle;
+}
+.info-text .right {
+  float: right;
+}
