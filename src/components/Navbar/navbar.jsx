@@ -54,7 +54,7 @@ const Navbar = () => {
                   <li><a className="dropdown-item" href="/businessconsulting">Business consulting</a></li>
                   <li><a className="dropdown-item" href="/digitalmarketing">Digital Marketing</a></li>
                   <li><a className="dropdown-item" href="/mobilencx">Mobile and CX</a></li>
-                  <li><a className="dropdown-item" href="/healthcare">QA Services</a></li>              
+                  <li><a className="dropdown-item" href="/qaservices">QA Services</a></li>              
                 </ul>
               </li>
 
@@ -89,19 +89,13 @@ const Navbar = () => {
                   Contact Us                
                 </a>
                 <ul className="dropdown-menu">
-                  {/* <li><a className="dropdown-item" href="/career">Reach us</a></li> */}
                   <li><a className="dropdown-item" href="/jobposting">Job Posting</a></li>
                 </ul>
               </li>
-              <li className="nav-item active">
-                {/* <img className="nav-link" src={img} alt="img" id="google_translate_element"/> */}
+              {/* <li className="nav-item active">
                 <a className="nav-link" id="google_translate_element">
-                {/* <span>
-                  <img src={img} alt="img" />
-                  <img src={img1} alt="img1" />
-                </span> */}
                   </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         

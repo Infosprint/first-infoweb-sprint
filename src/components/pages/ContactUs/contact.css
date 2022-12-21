@@ -34,6 +34,7 @@
 }
 .c-contact-form {
   padding: 20px;
+  background-color: #c4e2f4;
 }
 
 .contact-form .c-form-control {
@@ -121,3 +122,81 @@
     font-size:20px
   }
 } */
+
+/* * {
+  padding: 0;
+  margin: 0;
+  font-family: "Petrona";
+} */
+.contact-header {
+  text-align: center;
+}
+.contact-header h2 {
+  font-style: italic;
+  color: #033e8c;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 108px;
+}
+.contact-header p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.contact-detail {
+  background-color: #033e8c;
+  padding: 30px 10px;
+  border-radius: 10px;
+  height: 350px;
+}
+.contact-detail h2 {
+  color: #ffc738;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 41px;
+  padding-left: 45px;
+}
+.contact-detail p {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 23px;
+}
+.basic-info {
+  border-bottom: 1px solid white;
+  padding: 15px 0px 45px 0px;
+  color: #fff;
+}
+.contact-detail ul {
+  list-style-type: none;
+}
+
+.basic-info a {
+  padding: 5px 100px;
+  margin-left: calc(20%);
+}
+.basic-info ul li i {
+  padding: 10px 20px;
+}
+.social-icons ul li {
+  display: inline-block;
+  color: #fff;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.submit-message {
+  text-align: right;
+  padding: 10px;
+}
+@media (max-width: 830px){
+  .basic-info a {
+  padding: 5px 50px;
+  margin-left: calc(20%);
+}
+
+  }

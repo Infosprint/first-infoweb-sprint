@@ -4,23 +4,31 @@
   font-size: 18px;
   font-weight: 700;
 }
-
+.navbar-toggler 
+  {
+    color: orange;
+    background-color: white;
+  }
 .navbar-brand img {
   border-radius: 5px;
 }
 
 .nav-content {
-  padding-left: 23%;
+    padding-left: 11%;
     padding-top: 15px;
+    width: 100%;
 }
 .n-bag{
-  background-color: #c2e3ef;
+  background-color: black;
 }
 .dropdown-menu li a{
   padding: 12px 18px;
   font-size: 16px;
   font-weight: 600;
-  color: #706d6b;
+  color: #ffa500;
+}
+.dropdown-menu li :hover{
+   color: #09098f;
 }
 .dropdown-menu {
   border: none;
@@ -30,4 +38,7 @@
 .nav-item {
   margin-right: 20px;
   text-align: center;
+}
+.navbar-nav .nav-link.active{
+  color: #ffa500;
 }

@@ -1,6 +1,12 @@
 .blue-text{
     color: rgb(18, 16, 134);
 }
+.bg_image1{
+        background-image: url('../../../img//MicrosoftTeams-image (16).png');
+        background-size: cover;
+        height: 100vh;
+        color: #f5f5f5;
+}
 .carousel-indicators .active {
     position: relative;
     -webkit-box-flex: 0;
@@ -116,7 +122,7 @@ p,
 .paragraph {
     font-weight: 400;
     color: #8b8e93;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.6;
     font-family: "Open Sans", sans-serif
 }
@@ -191,11 +197,11 @@ p,
 .se-heading {
     /* font-family: 'Poppins'; */
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 65px;
     line-height: 80px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    color: #09098f;
+    color: orange;
 }
 
 .se-para {
@@ -203,8 +209,8 @@ p,
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
-    line-height: 30px;
-    color: #656464;
+    /* line-height: 30px; */
+    color: white;
 }
 
 .se-img-4 {
@@ -295,7 +301,7 @@ p,
         width: 100%;
     }
     .se-heading{
-        font-size: 100px;
+        font-size: 70px;
         line-height: 120px;
     }
 }
@@ -368,13 +374,13 @@ p,
         width: 45%;
     }
     .se-heading {
-        font-size: 100px;
-        line-height: 150px;
+        font-size: 80px;
+        line-height: 100px;
     }
     .se-para{
         /* width: 90%; */
         font-size: 18px;
-        line-height: 36px;
+        /* line-height: 36px; */
     }
     .s-uud,
     .s-pd,

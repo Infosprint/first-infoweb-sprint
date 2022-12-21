@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Jobposting.css";
-import img1 from '../../../img/MicrosoftTeams-image (2).png';
+import img1 from '../../../img/MicrosoftTeams-image (23).png';
 import { useSelector, useDispatch, } from 'react-redux'
 import { useNavigate } from "react-router-dom";
 import Alert from '@mui/material/Alert';

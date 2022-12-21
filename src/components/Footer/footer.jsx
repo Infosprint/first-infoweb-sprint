@@ -6,7 +6,7 @@ import Logo from '../../img/Infosprint Technologies Logo (1).jpg';
 export function Footer() {
 
   return (
-      <footer className="footer-section">
+      <footer className="footer-section mt-3">
         <div className="container">
             <div className="footer-cta pt-4 pb-2">
                 <div className="row">
@@ -16,7 +16,8 @@ export function Footer() {
                             <i className="fas fa-map-marker-alt"></i>
                             <div className="col-md-8 cta-text text-capitalize">
                                 <h4>Find us</h4>
-                                <span>Jakarta, Indonasia, soth africa (joburg), singapore, Hyderabad</span>
+                                <span>Infosprint Technologies Private Limited
+16, 5th Floor, Bizness Square,  Hitech city Rd, Laxmi cyber city Hyderabad, Telangana, 500033</span>
                             </div>
                         </div>
                       </div>
@@ -26,7 +27,7 @@ export function Footer() {
                             <i className="fas fa-phone"></i>
                             <div className="cta-text">
                                 <h4>Call us</h4>
-                                <span>+27833848842/+919490684932</span>
+                                <span>+91-6302184327</span>
                             </div>
                         </div>
                     </div>
@@ -35,7 +36,7 @@ export function Footer() {
                             <i className="far fa-envelope-open"></i>
                             <div className="cta-text">
                                 <h4>Mail us</h4>
-                                <span>consulting@qurinomsolutions.com</span>
+                                <span> hr@infosprinttech.com</span>
                             </div>
                         </div>
                     </div>
@@ -49,7 +50,8 @@ export function Footer() {
                             <img src={Logo} alt="" width="100%" height="35" />
                             </div>
                             <div className="footer-text">
-                                <p>Qurinom Solutions is a global product cum service-based IT start up empowered with Innovative Research & Development, Implementation and Rapid Delivery. We specialise in Artificial Intelligence, IoT and Embedded Systems based Android & IOS Mobile Applications, UX/UI Modernisation, Cloud & Digital Transformation, Healthcare Services, Structural & Interior Design and also render services for hedge clients over Digital Marketing & Consultancy in cross-functional Domains</p>
+                                <p>Infosprint Technologies is a global product cum service-based IT start up empowered with Innovative Research & Development, Implementation and Rapid Delivery.
+                                     We specialise in Web Designing , Mobile Applications, and also render services for hedge clients over Digital Marketing & Consultancy in cross-functional Domains.</p>
                             </div>
                             <div className="footer-social-icon">
                                 <span>Follow us</span>
@@ -83,7 +85,7 @@ export function Footer() {
             <div className="container">
                 <div className="row">
                     <div className="copyright-text text-center">
-                        <p>Copyright &copy; 2021, All Rights Reserved</p>
+                        <p>Copyright &copy; 2022, All Rights Reserved</p>
                     </div>
                 </div>
             </div>

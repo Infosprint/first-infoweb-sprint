@@ -55,10 +55,30 @@ const ContactUs = () => {
       <section className="container-fluid">
         <div className="row justify-content-center mb-5" id="contact">
           <div className="contact-text col-lg-6 align-items-center align-self-center">
-           <img src={img1} alt="img1" style={{ width: "80%" }} />
+          <div className="contact-detail">
+        <h2>Contact Information</h2>
+        <div className="basic-info">
+          <ul>
+            <li><i className="fas fa-phone-alt"></i> +91-6302184327</li>
+            <li><i className="fas fa-envelope"></i>hr@infosprinttech.com</li>
+            <li><i className="fas fa-map-marker-alt"></i> Infosprint Technologies Private Limited
+16, 5th Floor, Bizness Square,  Hitech city Rd, Laxmi cyber city Hyderabad, Telangana, 500033</li>
+          </ul>
+          {/* <a href="#" className="btn btn-warning">View in Maps</a> */}
+        </div>
+        {/* <div className="social-icons">
+          <ul>
+            <li><i className="fab fa-facebook"></i></li>
+            <li><i className="fab fa-youtube"></i></li>
+            <li><i className="fab fa-whatsapp"></i></li>
+          </ul>
+
+        </div> */}
+        </div>
+           {/* <img src={img1} alt="img1" style={{ width: "80%" }} /> */}
           </div>
           <div className="col-lg-6 align-items-center align-self-start">
-            <div className="contact-form mt-5 border rounded">
+            <div className="c-contact-form mt-5 border rounded">
             <form onSubmit={handleForm}>
                 <div className="row" style={{ lineHeight: "36px" }}>
                   <div className="col-sm-6">

@@ -14,7 +14,7 @@
 .wwd-para, .h-para, .m-para, .b-para, .l-para, .n-para, .r-para, .seo-para, .smo-para, .e-mark-para, .graphic-para, .inf-mark-para{
   font-size: 20px;
   color: #505050;
-  font-family: 'Poppins';
+  font-family: poppins;
 }
 .m-img-5 {
   float: right;

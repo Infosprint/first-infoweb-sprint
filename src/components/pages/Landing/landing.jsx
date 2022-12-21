@@ -1,12 +1,15 @@
 import React, {useState} from "react";
 import "./landing.css";
-// import img13 from "../../../img/Man chatting on dating site.svg";
+import Img1 from "../../../img/MicrosoftTeams-image (6).png";
 import { useSelector, useDispatch, } from 'react-redux'
 import { editUserEmail, removeUserContactResponceStatus, userContactPost } from "../../../redux/reducer";
 import { useNavigate } from "react-router-dom";
 import Alert from '@mui/material/Alert';
 import { Link } from 'react-router-dom';
-
+import ReactPlayer from 'react-player';
+import video from '../../../../src/components/pages/Video/Business - 46285 (1).mp4';
+import img1 from '../../../img/pexels-maxime-francis-2246476.jpg';
+import img2 from '../../../img/pexels-niklas-jeromin-11542516.jpg';
 
 const Landing = () => {
     const { userContactResponceStatus,userEmail } = useSelector(store => store.userContact)
@@ -15,7 +18,6 @@ const Landing = () => {
             name: null,
             mobile: null,
             email: userEmail || null
-           
         });
     
         const [wait, setwait] = useState(false)
@@ -54,12 +56,22 @@ const Landing = () => {
 
   return (
     <>
-      <div className="main-wrapper">
-        <div className="container-fluid">
-      <div className="row justify-content-between">
-      <div className="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
-  style={{backgroundImage: "url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp')",height: '585px'}}>
-      <div className="align-items-center align-self-center text-center">
+      <div className="w-full">
+      <div className="row justify-content-center g-2 align-baseline"> 
+    <video src={video} className="l-video" controls autoPlay muted /> 
+</div>
+      {/* <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+    <div className="bg_image text-center shadow-1-strong rounded text-white"
+  style={{height: '585px'}}>
+      
+                    </div>
+    </div>
+    </div>
+    </div> */}
+    {/* <div className="align-items-center align-self-center text-center">
+           <div class="carousel-caption d-none d-md-block" style={{marginBottom: '180px'}}>
                         <div className="row justify-content-center">
                             <h1 className="l-heading text-capitalize">
                                 digital transformation with InfoSprint Technologies
@@ -77,153 +89,159 @@ const Landing = () => {
                                 </a>
                             </div>
                         </div>
-                    </div>
-                    </div>
-          {/* <div className="col-xs-12 col-sm-4 col-md-6">
-              <div className="col-xs-12">
-                    <img src={img1} alt="productimg" className="product-img1" />
-              </div>
-          </div> */}
       </div>
-            {/* <div className="row justify-content-center">
-                <div className="row justify-content-center mt-1">
-                    <div className="col align-items-center align-self-center">
-                    <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-  <div className="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src={img4} className="d-block w-100 curousal-height" alt="..." />
+                        
+                    </div> */}
+     
+      {/* </div> */}
+           
+            <div className="row justify-content-between">
+            <div className="services pd align-center">
+            <div className="col-lg-12 text-center">
+            <h2 className="section-title">Services We Provide</h2>
+        </div>
+            <p className="text-center h-para pb-3">We believe in a hands-on approach on all projects. That is why a Director of the firm will always be in control of the key functions on our projects. 
+            It is equipped with the latest technology and has the necessary staff and resources to ensure the best professional service is provided at all times.</p>
+            {/* <div className="row row-cols-1 row-cols-md-3 g-4"> */}
+            <div className="s-container">
+    <div className="row">
+        <div className="col-lg-3 col-sm-6 mb-4">
+            <div className="s-card border-0 shadow rounded p-5">
+                <div className="card-body"> <i className="fa fa-object-ungroup icon-lg icon-primary icon-bg-primary icon-bg-circle mb-3"></i>
+                    <h4 className="mt-4 mb-3 s-subtitle">Networking</h4>
+                    <p>The exchange of information and ideas among people with a common profession
+Or special interest, Usually in an informal social setting.
+</p>
+                </div>
+            </div>
+        </div>
+        <div className="col-lg-3 col-sm-6 mb-4">
+            <div className="s-card border-0 shadow rounded p-5">
+                <div className="card-body"> <i className="fa fa-users icon-lg icon-yellow icon-bg-yellow icon-bg-circle mb-3"></i>
+                    <h4 className="mt-4 mb-3 s-subtitle">Social Activity</h4>
+                    <p>A self-regulating business model that helps a company be socially
+Accountable to itself, its stakeholders, and the public.
+</p>
+                </div>
+            </div>
+        </div>
+        <div className="col-lg-3 col-sm-6 mb-4">
+            <div className="s-card border-0 shadow rounded p-5">
+                <div className="card-body"> <i className="fa fa-desktop icon-lg icon-purple icon-bg-purple icon-bg-circle mb-3"></i>
+                    <h4 className="mt-4 mb-3 s-subtitle">Web Design</h4>
+                    <p>We make creative website using imagination and technology to help brands grow in an age of Digital transformation, and the public.</p>
+                </div>
+            </div>
+        </div>
+        <div className="col-lg-3 col-sm-6 mb-4">
+            <div className="s-card border-0 shadow rounded p-5">
+                <div className="card-body"> <i className="fa fa-cloud icon-lg icon-cyan icon-bg-cyan icon-bg-circle mb-3"></i>
+                    <h4 className="mt-4 mb-3 s-subtitle">Cloud Service</h4>
+                    <p>The delivery of different services through the internet which includes 
+Tools and applications like data storage, networking, and software.
+</p>
+                </div>
+            </div>
+        </div>
+        <div className="col-lg-3 col-sm-6 mb-4">
+            <div className="s-card border-0 shadow rounded p-5">
+                <div className="card-body"> <i className="fa fa-comments icon-lg icon-red icon-bg-red icon-bg-circle mb-3"></i>
+                    <h4 className="mt-4 mb-3 s-subtitle">Consulting</h4>
+                    <p>Help you address the risks and opportunities that digital technologies 
+Are created for your business. Develop an innovative and the public.</p>
+                </div>
+            </div>
+        </div>
+        <div className="col-lg-3 col-sm-6 mb-4">
+            <div className="s-card border-0 shadow rounded p-5">
+                <div className="card-body"> <i className="fa fa-search-plus icon-lg icon-green icon-bg-green icon-bg-circle mb-3"></i>
+                    <h4 className="mt-4 mb-3 s-subtitle">SEO Optimization</h4>
+                    <p>SEO can take your internet platforms to the next level, earning your company to higher ROI than traditional marketing for growth.</p>
+                </div>
+            </div>
+        </div>
+        <div className="col-lg-3 col-sm-6 mb-4">
+            <div className="s-card border-0 shadow rounded p-5">
+                <div className="card-body"> <i className="fa fa-user icon-lg icon-orange icon-bg-orange icon-bg-circle mb-3"></i>
+                    <h4 className="mt-4 mb-3 s-subtitle">Usability Testing</h4>
+                    <p>Testing your design informally on passers-by risks include inaccurate data, It represents users requirements and the public.</p>
+                </div>
+            </div>
+        </div>
+        <div className="col-lg-3 col-sm-6 mb-4">
+            <div className="s-card border-0 shadow rounded p-5">
+                <div className="card-body"> <i className="fa fa-envelope icon-lg icon-blue icon-bg-blue icon-bg-circle mb-3"></i>
+                    <h4 className="mt-4 mb-3 s-subtitle">UX Prototyping</h4>
+                    <p>The process of prototyping—from creating simple wireframes to testing fully functional mock-ups—is one of the most potent set of skills.</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div className="carousel-item">
-      <img src={img5} className="d-block w-100 curousal-height" alt="..." />
-    </div>
-    <div className="carousel-item">
-      <img src={img6} className="d-block w-100 curousal-height" alt="..." />
-    </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
 </div>
-                    </div>
+  {/* <div className="col">
+    <div className="card">
+      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" className="card-img-top"
+        alt="Hollywood Sign on The Hill" />
+      <div className="card-body">
+        <h5 className="card-title">Card title</h5>
+        <p className="card-text">
+          This is a longer card with supporting text below as a natural lead-in to
+          additional content. This content is a little bit longer.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div className="col">
+    <div className="card">
+      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" className="card-img-top"
+        alt="Palm Springs Road" />
+      <div className="card-body">
+        <h5 className="card-title">Card title</h5>
+        <p className="card-text">
+          This is a longer card with supporting text below as a natural lead-in to
+          additional content. This content is a little bit longer.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div className="col">
+    <div className="card">
+      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" className="card-img-top"
+        alt="Los Angeles Skyscrapers" />
+      <div className="card-body">
+        <h5 className="card-title">Card title</h5>
+        <p className="card-text">
+        This is a longer card with supporting text below as a natural lead-in to
+          additional content. This content is a little bit longer.
+          </p>
+      </div>
+    </div>
+  </div> */}
+{/* </div> */}
+        </div>
+        </div>
+        <div className="row justify-content-center s-tr pb-5">
+            <div className="col-lg-6 align-items-center align-self-center">
+                    <img src={Img1} alt="img5" className="se-img-5" />
                 </div>
-            </div> */}
-            <div className="row justify-content-between">
-            <div className="services pd">
-            <h3 className="title">Services</h3>
-          <div className="row l-row">
-          <div className="card l-cards service">
-          <i className="fas fa-laptop-code"></i>
-          <h2>Web Design</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-            quae?
-          </p>
-        </div>
-        <div className="card l-cards service">
-          <i className="fas fa-chart-line"></i>
-          <h2>Marketing</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-            quae?
-          </p>
-        </div>
-        <div className="card l-cards service">
-          <i className="fab fa-sketch"></i>
-          <h2>Graphics</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-            quae?
-          </p>
-        </div>
-        </div>
-        </div>
-        </div>
-            <div className="row justify-content-between">
-            <div className="services pd">
-            <h3 className="title">Products</h3>
-          <div className="row l-row">
-          <div className="card l-cards service">
-          <i className="fas fa-laptop-code"></i>
-          <h2>RESPECT</h2>
-          <p>
-          We respect our colleagues, customers and partners
-          </p>
-        </div>
-        <div className="card l-cards service">
-          <i className="fas fa-chart-line"></i>
-          <h2>AGILITY</h2>
-          <p>
-          We are extremely open-minded and adapt
-          </p>
-        </div>
-        <div className="card l-cards service">
-          <i className="fab fa-sketch"></i>
-          <h2>OWNERSHIP</h2>
-          <p>
-          We take ownership of results
-          </p>
-        </div>
-        </div>
-            {/* <div class="row">
-            <div class="col-lg-4 d-flex justify-content-center">
-                <div class="card l-cards">
-                    <input class="toggle-heart" type="checkbox" />
-                    <span class="fas fa-heart"></span>
-                    <div class="card-body text-center">
-                        <div class="card-img py-2">
-                            <img src={img13} alt="" className="img13" />
-                        </div>
-                        <div class="blue-text h5">RESPECT</div>
-                        <div class="paragraph">
-                        We respect our colleagues, customers and partners
-                        </div>
-                    </div>
-                </div>
+              <div className="col-lg-6 align-items-center align-self-center">
+                      <h1 className="section-title text-center">Products</h1>
+                  <div className="row justify-content-center">
+                      <p className="h-para">
+                      Advertising, social media, and customer evaluations are just a few examples of the activities that make up brand communication. 
+Every time a prospective customer or client connects with a certain brand, brand communication occurs. It can entail subscribing 
+to a newsletter or discovering a logo online. Creating a recognizable brand will improve the effectiveness of all communication 
+channels.Companies should invest time in creating communication strategies since they are crucial to creating a cohesive brand. 
+A brand is likely to fail without a successful strategy. People must be aware that certain goods and services exist in order 
+for them to make a purchase, and brand communication makes this knowledge possible. Making a decision on how to communicate is crucial,
+ but so is the frequency and accessibility of that communication.
+                      <Link to='/products' style={{fontSize: '19px'}}>Learn More</Link>
+                      </p>
+                  </div>
+              </div>
+               
             </div>
-            <div class="col-lg-4 d-flex justify-content-center">
-                <div class="card l-cards">
-                    <input class="toggle-heart" type="checkbox" />
-                    <span class="fas fa-heart"></span>
-                    <div class="card-body text-center">
-                        <div class="card-img py-2">
-                            <img src={img13} alt="" className="img13" />
-                        </div>
-                        <div class="blue-text h5">AGILITY</div>
-                        <div class="paragraph">
-                        We are extremely open-minded and adapt
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 d-flex justify-content-center">
-                <div class="card l-cards">
-                    <input class="toggle-heart" type="checkbox" />
-                    <span class="fas fa-heart"></span>
-                    <div class="card-body text-center">
-                        <div class="card-img py-2">
-                            <img src={img13} alt="" className="img13" />
-                        </div>
-                        <div class="blue-text h5">OWNERSHIP</div>
-                        <div class="paragraph">
-                            We take ownership of results
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> */}
-            </div>
-            </div>
- 
+ <div className="pb-5">
             <div className="row justify-content-center mt-sm-0 mt-lg-5 team-title">
                 <div className="col-sm-8 align-items-center align-self-center text-center">
                     <h4 className="l-oct text-capitalize">
@@ -235,28 +253,9 @@ const Landing = () => {
   <div className="container">
     <div className="row">
       <div className="col-md-4 col-sm-6 col-xs-12">
-        <div className="single-team">
+      <div className="single-team">
           <div className="img-area">
-            <img src="https://i.postimg.cc/wMMhrMDm/2.jpg" className="img-responsive" alt="" />
-            <div className="social">
-              <ul className="list-inline">
-                <li><Link href="#"><i className="fa fa-facebook"></i></Link></li>
-                <li><Link href="#"><i className="fa fa-twitter"></i></Link></li>
-                <li><Link href="#"><i className="fa fa-pinterest"></i></Link></li>
-                <li><Link href="#"><i className="fa fa-linkedin"></i></Link></li>
-              </ul>
-            </div>
-          </div>
-          <div className="img-text">
-            <h4>John Doe</h4>
-            <h5>Web Designer</h5>
-          </div>
-        </div>
-      </div>
-      <div className="col-md-4 col-sm-6 col-xs-12">
-        <div className="single-team">
-          <div className="img-area">
-            <img src="https://1.bp.blogspot.com/-cISC5xoywEA/YRleZqupHzI/AAAAAAAACZE/w7jfz6BTGf4IJv9kV-ijNP3kKxW3JpZXQCNcBGAsYHQ/s0/3%2B%25282%2529.jpg" class="img-responsive" alt="" />
+            <img src="https://1.bp.blogspot.com/-cGZY1xJjPNc/YRleZmEbEHI/AAAAAAAACZA/P-WOeYZegAQdUCF66C0E1ZF4zMEzaUvggCNcBGAsYHQ/s0/3%2B%25281%2529.jpg" class="img-responsive" alt="" />
             <div className="social">
               <ul className="list-inline">
               <li><Link href="#"><i className="fa fa-facebook"></i></Link></li>
@@ -267,8 +266,42 @@ const Landing = () => {
             </div>
           </div>
           <div className="img-text">
-            <h4>Alex Wood</h4>
-            <h5>Apps Developer</h5>
+            <h4>Rosie Meg</h4>
+            <h5>Game Developer</h5>
+          </div>
+        </div>
+      {/* <section className="mx-auto my-5" style={{maxWidth: '23rem'}}>
+      <div className="card testimonial-card mt-2 mb-3 single-team">
+      <div className="card-up aqua-gradient"></div>
+      <div className="avatar mx-auto white img-area">
+        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2831%29.jpg" className="rounded-circle img-fluid"
+          alt="woman avatar" />
+      </div>
+      <div className="card-body text-center">
+        <h4 className="card-title font-weight-bold text-black">Martha Smith</h4>
+        <hr />
+        <p><i className="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos,
+          adipisci</p>
+      </div>
+    </div>
+    </section> */}
+      </div>
+      <div className="col-md-4 col-sm-6 col-xs-12">
+      <div className="single-team">
+          <div className="img-area">
+            <img src="https://1.bp.blogspot.com/-cGZY1xJjPNc/YRleZmEbEHI/AAAAAAAACZA/P-WOeYZegAQdUCF66C0E1ZF4zMEzaUvggCNcBGAsYHQ/s0/3%2B%25281%2529.jpg" class="img-responsive" alt="" />
+            <div className="social">
+              <ul className="list-inline">
+              <li><Link href="#"><i className="fa fa-facebook"></i></Link></li>
+                <li><Link href="#"><i className="fa fa-twitter"></i></Link></li>
+                <li><Link href="#"><i className="fa fa-pinterest"></i></Link></li>
+                <li><Link href="#"><i className="fa fa-linkedin"></i></Link></li>
+              </ul>
+            </div>
+          </div>
+          <div className="img-text">
+            <h4>Rosie Meg</h4>
+            <h5>Game Developer</h5>
           </div>
         </div>
       </div>
@@ -294,7 +327,9 @@ const Landing = () => {
     </div>
   </div>
 </div>
-            <div className="row justify-content-around mt-5 mb-5">
+</div>
+            <div className="row justify-content-around"  style={{backgroundImage: "url('https://scx1.b-cdn.net/csz/news/800/2017/theoreticala.jpg')",
+            height: '585px',backgroundSize: 'cover'}}>
                 <div className="col-md-7 align-items-center align-self-center text-center py-md-3 form-back">
                     <div className="row justify-content-center mt-5 mt-md-2 pb-3">
                         <div className="col-sm-8 col-md-10 align-items-center align-self-center">
@@ -364,11 +399,39 @@ const Landing = () => {
                   </div>
               </form>
                 </div>
-                {/* <div className="col-md-5 align-items-center align-self-center">
-                    <img src={img13} alt="img13" className="l-img-13" />
-                </div> */}
             </div>
+            {/* <div className="row justify-content-between">
+            <div className="services pd">
+            <h3 className="title text-center">Products</h3>
+            <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
+            quae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
+            quae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
+            quae?</p>
+          <div className="row l-row text-center">
+          <div className="card p-3">
+          <i className="fas fa-laptop-code text-4xl"></i>
+          <h3>RESPECT</h3>
+          <p>
+          We respect our colleagues, customers and partners
+          </p>
+        </div>
+        <div className="card p-3">
+          <i className="fas fa-chart-line"></i>
+          <h3>AGILITY</h3>
+          <p>
+          We are extremely open-minded and adapt
+          </p>
+        </div>
+        <div className="card p-3">
+          <i className="fab fa-sketch"></i>
+          <h3>OWNERSHIP</h3>
+          <p>
+          We take ownership of results
+          </p>
+        </div>
+        </div>
             </div>
+            </div> */}
         </div>
     </>
   );

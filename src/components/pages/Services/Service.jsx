@@ -1,5 +1,8 @@
 import React from 'react';
-// import {useNavigate} from 'react-router-dom';
+import {Link} from 'react-router-dom';
+import img1 from '../../../img/MicrosoftTeams-image (5).png';
+import img2 from '../../../img/MicrosoftTeams-image (6).png';
+import img3 from '../../../img/MicrosoftTeams-image (12).png'
 import img11 from '../../../img/MicrosoftTeams-image (4).png';
 import "./service.css";
 
@@ -9,18 +12,76 @@ const Services = () => {
   return (
     <>
     <div className="main-wrapper pb-5">
-        <div className="container-fluid">
-            <div className="row justify-content-center s-tr pb-3">
-              <div className="col-lg-6 align-items-center align-self-center text-center">
-                  <div className="row justify-content-center">
+        <div className="align-items-center align-self-center text-center">
+        <div className="bg_image1 p-5 text-center shadow-1-strong text-white"
+  style={{height: '300px'}}
+  >
+      <div className="text-center" style={{marginBottom: '96px'}}>
+      <div className="row justify-content-center">
                       <h1 className="se-heading text-capitalize">services</h1>
+                  </div>
+                    </div>
+                    </div>
+                  
+              </div>
+            <div className="row justify-content-center s-tr pb-3">
+              <div className="col-lg-6 align-items-center align-self-center">
+                  <div className="row justify-content-center">
+                      <h1 className="section-title text-center">Business Transformation</h1>
+                  </div>
+                  <div className="row justify-content-center p-3">
+                      <p className="h-para">
+                      Advertising, social media, and customer evaluations are just a few examples of the activities that make up brand communication. 
+Every time a prospective customer or client connects with a certain brand, brand communication occurs. It can entail subscribing 
+to a newsletter or discovering a logo online. Creating a recognizable brand will improve the effectiveness of all communication 
+channels. 
+Companies should invest time in creating communication strategies since they are crucial to creating a cohesive brand. 
+A brand is likely to fail without a successful strategy. People must be aware that certain goods and services exist in order 
+for them to make a purchase, and brand communication makes this knowledge possible. Making a decision on how to communicate is crucial,
+but so is the frequency and accessibility of that communication. 
+                      <Link to='/businesstrans' style={{fontSize: '17px'}}>Read More</Link>
+                      </p>
+                  </div>
+              </div>
+                <div className="col-lg-6 align-items-center align-self-center">
+                    <div className='p-5'>
+                    <img src={img1} alt="img5" className="se-img-5" />
+                    </div>
+                </div>
+            </div>
+            <div className="row justify-content-center s-tr pb-3">
+            <div className="col-lg-6 align-items-center align-self-center mt-5">
+                    <img src={img2} alt="img5" className="se-img-5" />
+                </div>
+              <div className="col-lg-6 align-items-center align-self-center">
+                  <div className="row justify-content-center">
+                      <h1 className="section-title text-center">Business Consulting</h1>
                   </div>
                   <div className="row justify-content-center">
                       <p className="h-para">
-                      Visually appealing, polished, and Professional,Intuitive to use,Optimized for mobile devices and search engines,
-                      With easily accessible contact information,Matching the current trends,
-                      Regularly check for any broken links or not working scripts
-
+                      Present economic situation states that businesses need ways to make way for efficient operations to increase their revenue generation 
+while keeping their expenses low at the same time. While some businesses stay ahead of the curve of revenue demands, most of the businesses 
+struggle to stay abreast with the demands in this competitive market due to lack of proper consulting. Selecting the right consultant allows a business to grow and increase
+potential limit instead of maintaining long-lasting status of either being small-scaled business or medium scaled.
+                      <Link to='/businessconsulting' style={{fontSize: '17px'}}>Read More</Link>
+                      </p>
+                  </div>
+              </div>
+               
+            </div>
+            <div className="row justify-content-center s-tr pb-3">
+              <div className="col-lg-6 align-items-center align-self-center">
+                  <div className="row justify-content-center">
+                      <h1 className="section-title text-center">Digital Marketing</h1>
+                  </div>
+                  <div className="row justify-content-center p-3">
+                      <p className="h-para">
+                      Advertising, social media, and customer evaluations are just a few examples of the activities that make up brand communication. 
+Every time a prospective customer or client connects with a certain brand, brand communication occurs. It can entail subscribing 
+to a newsletter or discovering a logo online. Creating a recognizable brand will improve the effectiveness of all communication 
+channels.
+Companies should invest time in creating communication strategies since they are crucial to creating a cohesive brand. 
+                      <Link to='/digitalmarketing' style={{fontSize: '17px'}}>Read More</Link>
                       </p>
                   </div>
               </div>
@@ -28,7 +89,45 @@ const Services = () => {
                     <img src={img11} alt="img5" className="se-img-5" />
                 </div>
             </div>
-            <div className="s-container">
+            <div className="row justify-content-center s-tr pb-3">
+            <div className="col-lg-6 align-items-center align-self-center mt-5">
+                    <img src={img3} alt="img5" className="se-img-5" />
+                </div>
+              <div className="col-lg-6 align-items-center align-self-center">
+                  <div className="row justify-content-center">
+                      <h1 className="section-title text-center">MobileNCX</h1>
+                  </div>
+                  <div className="row justify-content-center">
+                      <p className="h-para">
+                      The CX-Mobile is also highly configurable with a range of energy levels, networking capabilities and menu of optional scanning features. 
+Designed for travel on public roads and highways, the system is available with a choice of truck options. 
+Plus you can count on Leidos services and support teams to fully integrate the system into your workflow.
+                      <Link to='/mobilencx' style={{fontSize: '17px'}}>Read More</Link>
+                      </p>
+                  </div>
+              </div>
+               
+            </div>
+            <div className="row justify-content-center s-tr pb-3">
+              <div className="col-lg-6 align-items-center align-self-center">
+                  <div className="row justify-content-center text-center">
+                      <h1 className="section-title">QA Services</h1>
+                  </div>
+                  <div className="row justify-content-center p-3">
+                      <p className="h-para">
+                      Software programs are more complex than ever, and with the pressure to continually release new updates and features, traditional testing strategies just can’t keep up.
+While internal user testing is an option for some companies, it won’t replace thorough QA testing. That’s because non-technical employees might be able weigh in on 
+UI or design glitches, but they won’t find problems at the database level.
+Quality assurance services, on the other hand, specialize in uncovering bugs, and can put your product through rigorous testing, both manual and automated.
+                      <Link to='/businesstrans' style={{fontSize: '17px'}}>Read More</Link>
+                      </p>
+                  </div>
+              </div>
+                <div className="col-lg-6 align-items-center align-self-center mt-5">
+                    <img src={img11} alt="img5" className="se-img-5" />
+                </div>
+            </div>
+            {/* <div className="s-container">
     <div className="row">
         <div className="col-lg-12 text-center">
             <h2 className="section-title">Services We Provide</h2>
@@ -105,111 +204,7 @@ Are created for your business. Develop an innovative</p>
             </div>
         </div>
     </div>
-</div>
-            {/* <div className="container mb-5">
-    <div className="row justify-content-center">
-        <div className="col-md-3 offset-md-1 rounded bg-white border p-4 text-center">
-            <div className="carousel slide" id="mySlider">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" />
-                        <div className="py-4 blue-text">
-                            <h4 className="font-weight-bold">List Tracking</h4>
-                            <p>IN REAL TIME</p>
-                            <p>we make time tracking so simple you'll actually use it. But even if you forget, our tracking reminders.                                    
-                            </p>
-                        </div>
-                    </div>
-                    <div className="carousel-item">
-                        <img src="https://images.unsplash.com/photo-1580828343064-fde4fc206bc6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" />
-                        <div className="pt-4 blue-text d-flex flex-column pb-2">
-                            <h4 className="font-weight-bold">Sales Track</h4>
-                            <p>MAXIMUM SALES</p>
-                            <p>know how much your time is worth? Break down your hours by projects, clients and tasks to see what's making you money.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="carousel-item">
-                        <img src="https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" />
-                        <div className="pt-4 blue-text">
-                            <h4 className="font-weight-bold">Stategy</h4>
-                            <p>IS REQUIRED</p>
-                            <p>Start tracking in your browser, stop the timer o your phone -all your time entires are synced between the phone apps, desktop apps.
-                            </p>
-                        </div>
-                    </div>
-                </div>             
-            </div>
-        </div>
-        <div className="col-md-3 offset-md-1 rounded bg-white border p-4 text-center">
-            <div className="carousel slide" id="mySlider1">
-                <div className="carousel-inner">
-                    <div className="carousel-item">
-                        <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" width="200" />
-                        <div className="py-4 blue-text">
-                            <h4 className="font-weight-bold">List Tracking</h4>
-                            <p>IN REAL TIME</p>
-                            <p>we make time tracking so simple you'll actually use it. But even if you forget, our tracking reminders.                                    
-                            </p>
-                        </div>
-                    </div>
-                    <div className="carousel-item active">
-                        <img src="https://images.unsplash.com/photo-1580828343064-fde4fc206bc6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" width="200" />
-                        <div className="pt-4 blue-text d-flex flex-column pb-2">
-                            <h4 className="font-weight-bold">Sales Track</h4>
-                            <p>MAXIMUM SALES</p>
-                            <p>know how much your time is worth? Break down your hours by projects, clients and tasks to see what's making you money.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="carousel-item">
-                        <img src="https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" width="200" />
-                        <div className="pt-4 blue-text">
-                            <h4 className="font-weight-bold">Stategy</h4>
-                            <p>IS REQUIRED</p>
-                            <p>Start tracking in your browser, stop the timer o your phone -all your time entires are synced between the phone apps, desktop apps.
-                            </p>
-                        </div>
-                    </div>
-                </div>             
-            </div>
-        </div>
-        <div className="col-md-3 offset-md-1 rounded bg-white border p-4 text-center">
-            <div className="carousel slide" id="mySlider2">
-                <div className="carousel-inner">
-                    <div className="carousel-item">
-                        <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" width="200" />
-                        <div className="py-4 blue-text">
-                            <h4 className="font-weight-bold">List Tracking</h4>
-                            <p>IN REAL TIME</p>
-                            <p>we make time tracking so simple you'll actually use it. But even if you forget, our tracking reminders.                                    
-                            </p>
-                        </div>
-                    </div>
-                    <div className="carousel-item">
-                        <img src="https://images.unsplash.com/photo-1580828343064-fde4fc206bc6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" width="200" />
-                        <div className="pt-4 blue-text d-flex flex-column pb-2">
-                            <h4 className="font-weight-bold">Sales Track</h4>
-                            <p>MAXIMUM SALES</p>
-                            <p>know how much your time is worth? Break down your hours by projects, clients and tasks to see what's making you money.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="carousel-item active">
-                        <img src="https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" width="200" />
-                        <div className="pt-4 blue-text">
-                            <h4 className="font-weight-bold">Stategy</h4>
-                            <p>IS REQUIRED</p>
-                            <p>Start tracking in your browser, stop the timer o your phone -all your time entires are synced between the phone apps, desktop apps.
-                            </p>
-                        </div>
-                    </div>
-                </div>             
-            </div>
-        </div>
-    </div>
 </div> */}
-        </div>
     </div>
 </>
   )

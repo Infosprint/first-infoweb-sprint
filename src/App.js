@@ -13,7 +13,7 @@ import Jobposting from './components/pages/Jobposting/Jobposting';
 import Digitalmarketing from './components/pages/Digital marketing/marketing';
 import ContactUs from './components/pages/ContactUs/contact';
 import Products from './components/pages/Products/products';
-import Healthcare from './components/pages/Healthcare/Healthcare';
+import QAservices from './components/pages/QAServices/QAServices';
 import Mobilencx from './components/pages/MobileNCX/Mobilencx';
 
 function App() {
@@ -47,7 +47,7 @@ function App() {
         <Route path='/digitalmarketing' element={<Digitalmarketing/>} />
         <Route path='/contactus' element={<ContactUs/>} />
         <Route path='/products' element={<Products />} />
-        <Route path='/healthcare' element={<Healthcare />} />
+        <Route path='/qaservices' element={<QAservices />} />
         <Route path='/mobilencx' element={<Mobilencx />} />
         <Route path='/businessconsulting' element={<Businessconsulting/>} />
        </Routes>

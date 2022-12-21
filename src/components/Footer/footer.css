@@ -1,5 +1,5 @@
 .footer-section {
-  background: #757272;
+  background: #170303;
   position: relative;
 }
 .footer-cta {
@@ -137,13 +137,13 @@
   transform: rotate(-6deg);
 }
 .copyright-area{
-  background: #202020;
+  background: #706c6c;
   padding: 25px 0;
 }
 .copyright-text p {
   margin: 0;
   font-size: 14px;
-  color: #c9c4c4;
+  color: #ffffff;
   font-family: 'Poppins';
 }
 .copyright-text p a{
