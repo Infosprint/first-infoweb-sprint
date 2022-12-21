@@ -55,10 +55,10 @@ export function Footer() {
                             </div>
                             <div className="footer-social-icon">
                                 <span>Follow us</span>
-                                <a href="https://www.facebook.com/qurinomsolutions/"><i className="fab fa-facebook-f facebook-bg"></i></a>
-                                <a href="https://twitter.com/qurinom?s=08"><i className="fab fa-twitter twitter-bg"></i></a>
+                                <a href="https://business.facebook.com/"><i className="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="https://twitter.com/"><i className="fab fa-twitter twitter-bg"></i></a>
                                 <a href="https://www.instagram.com/"><i className="fab fa-instagram instagram-bg"></i></a>
-                                <a href="https://www.linkedin.com/company/qurinomsolutions"><i className="fab fa-linkedin linkedin-bg"></i></a>
+                                <a href="https://www.linkedin.com/"><i className="fab fa-linkedin linkedin-bg"></i></a>
                             </div>
                         </div>
                     </div>
