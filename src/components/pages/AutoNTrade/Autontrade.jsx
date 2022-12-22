@@ -29,7 +29,7 @@ const Autontrade = () => {
               </div>
               <div className="row justify-content-center p-3">
                 <div className="align-items-center align-self-center">
-                  <p className="h-para">AUTO N TRADE..........Buying a car gives an ecstatic feeling, be it a brand-new car or a second-hand model.
+                  <p className="h-para">AUTONTRADE..........Buying a car gives an ecstatic feeling, be it a brand-new car or a second-hand model.
  New cars show high performance in the first few years of their lifespan, on the other hand a second-hand car needs to have cared for a bit more than the new one. One way of showing the necessary love to your four-wheeler is through regular maintenance. Another is obviously your driving style.
                   Vehicles are becoming ever more complex and challenging to repair.
                    Our service has the upper hand in overcoming these challenges by pairing technology and innovation and highly skilled technicians to meet the customer’s needs. With many locations around the globe, you can be assured that where ever you are, you can find a trusted Auto N Trade Service Dealer
