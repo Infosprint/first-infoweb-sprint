@@ -36,7 +36,7 @@ export function Footer() {
                             <i className="far fa-envelope-open"></i>
                             <div className="cta-text">
                                 <h4>Mail us</h4>
-                                <span> hr@infosprinttech.com</span>
+                                <span> info@infosprinttech.com</span>
                             </div>
                         </div>
                     </div>

@@ -117,7 +117,7 @@ Or special interest, Usually in an informal social setting.
                 <div className="card-body"> <i className="fa fa-users icon-lg icon-yellow icon-bg-yellow icon-bg-circle mb-3"></i>
                     <h4 className="mt-4 mb-3 s-subtitle">Social Activity</h4>
                     <p>A self-regulating business model that helps a company be socially
-Accountable to itself, its stakeholders, and the public.
+Accountable to itself, its stakeholders, and the public and the users can also use.
 </p>
                 </div>
             </div>
@@ -153,7 +153,7 @@ Are created for your business. Develop an innovative and the public.</p>
             <div className="s-card border-0 shadow rounded p-5">
                 <div className="card-body"> <i className="fa fa-search-plus icon-lg icon-green icon-bg-green icon-bg-circle mb-3"></i>
                     <h4 className="mt-4 mb-3 s-subtitle">SEO Optimization</h4>
-                    <p>SEO can take your internet platforms to the next level, earning your company to higher ROI than traditional marketing for growth.</p>
+                    <p>SEO can take your internet platforms to the next level, earning your company to higher than traditional marketing growth.</p>
                 </div>
             </div>
         </div>
@@ -161,7 +161,7 @@ Are created for your business. Develop an innovative and the public.</p>
             <div className="s-card border-0 shadow rounded p-5">
                 <div className="card-body"> <i className="fa fa-user icon-lg icon-orange icon-bg-orange icon-bg-circle mb-3"></i>
                     <h4 className="mt-4 mb-3 s-subtitle">Usability Testing</h4>
-                    <p>Testing your design informally on passers-by risks include inaccurate data, It represents users requirements and the public.</p>
+                    <p>The earlier issues are identified and fixed, the less expensive the fixes will be in terms of both staff time and possible impact to the schedule and major issues.</p>
                 </div>
             </div>
         </div>

@@ -19,13 +19,13 @@
     width: 100%;
 }
 .n-bag{
-  background-color: black;
+  background-color: #0e0e5c;
 }
 .dropdown-menu li a{
   padding: 12px 18px;
   font-size: 16px;
   font-weight: 600;
-  color: #ffa500;
+  color: #09098f;
 }
 .dropdown-menu li :hover{
    color: #09098f;
@@ -40,5 +40,5 @@
   text-align: center;
 }
 .navbar-nav .nav-link.active{
-  color: #ffa500;
+  color: white;
 }

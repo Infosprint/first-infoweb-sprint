@@ -24,7 +24,7 @@
 .cta-text span {
   color: #f6f3f3;
   font-size: 15px;
-  font-family: 'Poppins';
+  font-family: 'sans-serif';
 }
 .footer-content {
   position: relative;
@@ -49,7 +49,7 @@
   font-size: 14px;
   color: #f6f3f3;
   line-height: 28px;
-  font-family: 'Poppins';
+  font-family: 'sans-serif';
 }
 .footer-social-icon span {
   color: #fff;

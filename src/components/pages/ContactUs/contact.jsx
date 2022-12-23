@@ -60,7 +60,7 @@ const ContactUs = () => {
         <div className="basic-info">
           <ul>
             <li><i className="fas fa-phone-alt"></i> +91-6302184327</li>
-            <li><i className="fas fa-envelope"></i>hr@infosprinttech.com</li>
+            <li><i className="fas fa-envelope"></i>info@infosprinttech.com</li>
             <li><i className="fas fa-map-marker-alt"></i> Infosprint Technologies Private Limited
 16, 5th Floor, Bizness Square,  Hitech city Rd, Laxmi cyber city Hyderabad, Telangana, 500033</li>
           </ul>

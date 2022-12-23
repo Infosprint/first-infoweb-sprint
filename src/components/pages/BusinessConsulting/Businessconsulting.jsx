@@ -50,7 +50,7 @@ of growth and plans accordingly.
         </p> */}
         <div className="row pb-5">
             <div className="col-sm-6 col-md-6 col-lg-4">
-                <div className="al-service-box pt-5 pb-4 px-5 text-center border rounded">
+                <div className="al-service-box pt-5 pb-4 px-5 border rounded">
                     <span className="al-service-icon"> <i className="fas fa-car fa-5x"></i></span>
                     <h3 className="mt-3">Business Evolution Model</h3>
                     <p className="mt-3 paragraph">Sometimes management might not able to see problems because of working in the same conditions or environment for long period. Therefore, it becomes important to get a view from any outsiders who are also expert in your field. 
@@ -58,7 +58,7 @@ of growth and plans accordingly.
                 </div>
             </div>
             <div className="col-sm-6 col-md-6 col-lg-4">
-                <div className="al-service-box pt-5 pb-4 px-5 text-center border rounded">
+                <div className="al-service-box pt-5 pb-4 px-5 border rounded">
                     <span className="al-service-icon"> <i className="fas fa-car fa-5x"></i>
                     </span>
 
@@ -68,7 +68,7 @@ of growth and plans accordingly.
                 </div>
             </div>
             <div className="col-sm-6 col-md-6 col-lg-4">
-                <div className="al-service-box pt-5 pb-4 px-5 text-center border rounded">
+                <div className="al-service-box pt-5 pb-4 px-5 border rounded">
                     <span className="al-service-icon"> <i class="fas fa-car fa-5x"></i></span>
 
                     <h3 className="mt-3">Digital Marketing</h3>

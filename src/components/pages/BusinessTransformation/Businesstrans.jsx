@@ -49,11 +49,11 @@ difficult the innovation is, however: The established competitors almost always 
         <div className="row justify-content-between">
             <div className="services pd">
         <h3 className="title">Transformation</h3>
-        <div className="row text-center">
+        <div className="row">
           <div className="col-md-3">
             <div className="square"><i className="fas fa-code"></i></div>
             <div className="serv">
-              <h5>Social Media & Strategy </h5>
+              <h5 className="text-center">Social Media & Strategy </h5>
               <p>A social media strategy outlines how to maximize engagement and interactions on social media platforms in order to accomplish a company’s goal. 
 These goals can be to increase brand awareness, produce a viral impact, or generate leads.</p>
             </div>
@@ -61,25 +61,25 @@ These goals can be to increase brand awareness, produce a viral impact, or gener
           <div className="col-md-3">
             <div className="serv">
               <div className="square"><i className="fas fa-cogs"></i></div>
-              <h5>Digital Performance Marketing </h5>
+              <h5 className=" text-center">Digital Performance Marketing </h5>
               <p>We throw around the word “digital marketing” so frequently.
-Digital marketing actually comes in a variety of forms, and each type’s outlet and capabilities are expanding on a daily basis.  </p>
+Digital marketing actually comes in a variety of forms, and each type’s outlet and capabilities are expanding on a daily basis. In certain ways we can implement.  </p>
             </div>
           </div>
           <div className="col-md-3">
             <div className="square"><i className="fas fa-globe"></i></div>
             <div className="serv">
-              <h5>Website and App Development</h5>
+              <h5 className=" text-center">Website and App Development</h5>
               <p>The difficult process of planning, creating, testing, and deploying a web-based program is known as web application development. 
-A firm may decide to develop a unique web application when they want to establish an online</p>
+A firm may decide to develop a unique web application when they want to establish an online.</p>
             </div>
           </div>
           <div className="col-md-3">
             <div className="square"><i className="fas fa-user-shield"></i></div>
             <div className="serv">
-              <h5>Data Solutions</h5>
+              <h5 className=" text-center">Data Solutions</h5>
               <p>The days of assuming you could figure out who your target audience was are long gone. 
-Big data enables you to get in-depth information on virtually any demographic you could want to target. </p>
+Big data enables you to get in-depth information on virtually any demographic you could want to target.We also try to analyse the data solution. </p>
             </div>
           </div>
       </div>

@@ -44,8 +44,8 @@ that a human tester can’t see, while avoid the variables that comes with manua
       <img src={img2} class="card-img-top"
         alt="Hollywood Sign on The Hill" />
           <div class="card-body">
-                <h5 class="card-title s-subtitle">Usability testing</h5>
-                <p class="card-text q-services">The earlier issues are identified and fixed, the less expensive the fixes will be in terms of both staff time and possible impact to the schedule.</p>
+                <h5 class="card-title s-subtitle">Accessibility</h5>
+                <p class="card-text q-services">An organization can use performance testing as a diagnostic aid to locate computing or communications bottlenecks within a system. Bottlenecks are a single point or component within a system's overall function that holds back overall performance.</p>
             </div>
     </div>
     </div>
