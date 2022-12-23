@@ -6,7 +6,7 @@ import { editUserEmail, removeUserContactResponceStatus, userContactPost } from 
 import { useNavigate } from "react-router-dom";
 import Alert from '@mui/material/Alert';
 import { Link } from 'react-router-dom';
-import video from '../../../../src/components/pages/Video/Business - 46285 (1).mp4';
+import video from '../../pages/Video/iStock-1353527696-mp4_format.mp4';
 
 const Landing = () => {
     const { userContactResponceStatus,userEmail } = useSelector(store => store.userContact)
