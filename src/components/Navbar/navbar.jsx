@@ -75,27 +75,12 @@ const Navbar = () => {
                   <li><a className="dropdown-item" href="/autontrade">AutoNTrade</a></li>
                 </ul>
               </li>
-                <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle active"
-                  href="/contactus"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  onClick={()=>{
-                    navigation('/contactus')
-                  }}
-                >
-                  Contact Us                
-                </a>
-                <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="/jobposting">Job Posting</a></li>
-                </ul>
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/career">Career</a>
               </li>
-              {/* <li className="nav-item active">
-                <a className="nav-link" id="google_translate_element">
-                  </a>
-              </li> */}
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/contactus">Contact Us</a>
+              </li>
             </ul>
           </div>
         

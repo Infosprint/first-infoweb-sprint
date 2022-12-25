@@ -3,7 +3,8 @@ import {Link} from 'react-router-dom';
 import img1 from '../../../img/MicrosoftTeams-image (5).png';
 import img2 from '../../../img/MicrosoftTeams-image (6).png';
 import img3 from '../../../img/MicrosoftTeams-image (12).png'
-import img11 from '../../../img/MicrosoftTeams-image (4).png';
+import img4 from '../../../img/MicrosoftTeams-image (4).png';
+import img5 from '../../../img/marketing.gif'; 
 import "./service.css";
 
 const Services = () => {
@@ -86,7 +87,7 @@ Companies should invest time in creating communication strategies since they are
                   </div>
               </div>
                 <div className="col-lg-6 align-items-center align-self-center mt-5">
-                    <img src={img11} alt="img5" className="se-img-5" />
+                    <img src={img4} alt="img5" className="se-img-5" />
                 </div>
             </div>
             <div className="row justify-content-center s-tr pb-3">
@@ -124,87 +125,9 @@ Quality assurance services, on the other hand, specialize in uncovering bugs, an
                   </div>
               </div>
                 <div className="col-lg-6 align-items-center align-self-center mt-5">
-                    <img src={img11} alt="img5" className="se-img-5" />
+                    <img src={img5} alt="img5" className="se-img-5" />
                 </div>
             </div>
-            {/* <div className="s-container">
-    <div className="row">
-        <div className="col-lg-12 text-center">
-            <h2 className="section-title">Services We Provide</h2>
-        </div>
-        <div className="col-lg-3 col-sm-6 mb-4">
-            <div className="s-card border-0 shadow rounded p-5">
-                <div className="card-body"> <i className="fa fa-object-ungroup icon-lg icon-primary icon-bg-primary icon-bg-circle mb-3"></i>
-                    <h4 className="mt-4 mb-3 s-subtitle">Networking</h4>
-                    <p>The exchange of information and ideas among people with a common profession
-Or special interest, Usually in an informal social setting.
-</p>
-                </div>
-            </div>
-        </div>
-        <div className="col-lg-3 col-sm-6 mb-4">
-            <div className="s-card border-0 shadow rounded p-5">
-                <div className="card-body"> <i className="fa fa-users icon-lg icon-yellow icon-bg-yellow icon-bg-circle mb-3"></i>
-                    <h4 className="mt-4 mb-3 s-subtitle">Social Activity</h4>
-                    <p>A self-regulating business model that helps a company be socially
-Accountable to itself, its stakeholders, and the public.
-</p>
-                </div>
-            </div>
-        </div>
-        <div className="col-lg-3 col-sm-6 mb-4">
-            <div className="s-card border-0 shadow rounded p-5">
-                <div className="card-body"> <i className="fa fa-desktop icon-lg icon-purple icon-bg-purple icon-bg-circle mb-3"></i>
-                    <h4 className="mt-4 mb-3 s-subtitle">Web Design</h4>
-                    <p>We make creative website using imagination and technology to help brands grow in an age of Digital transformation</p>
-                </div>
-            </div>
-        </div>
-        <div className="col-lg-3 col-sm-6 mb-4">
-            <div className="s-card border-0 shadow rounded p-5">
-                <div className="card-body"> <i className="fa fa-cloud icon-lg icon-cyan icon-bg-cyan icon-bg-circle mb-3"></i>
-                    <h4 className="mt-4 mb-3 s-subtitle">Cloud Service</h4>
-                    <p>The delivery of different services through the internet which includes 
-Tools and applications like data storage, networking, and software.
-</p>
-                </div>
-            </div>
-        </div>
-        <div className="col-lg-3 col-sm-6 mb-4">
-            <div className="s-card border-0 shadow rounded p-5">
-                <div className="card-body"> <i className="fa fa-comments icon-lg icon-red icon-bg-red icon-bg-circle mb-3"></i>
-                    <h4 className="mt-4 mb-3 s-subtitle">Consulting</h4>
-                    <p>Help you address the risks and opportunities that digital technologies 
-Are created for your business. Develop an innovative</p>
-                </div>
-            </div>
-        </div>
-        <div className="col-lg-3 col-sm-6 mb-4">
-            <div className="s-card border-0 shadow rounded p-5">
-                <div className="card-body"> <i className="fa fa-search-plus icon-lg icon-green icon-bg-green icon-bg-circle mb-3"></i>
-                    <h4 className="mt-4 mb-3 s-subtitle">SEO Optimization</h4>
-                    <p>SEO can take your internet platforms to the next level, earning your company to higher ROI than traditional marketing for growth.</p>
-                </div>
-            </div>
-        </div>
-        <div className="col-lg-3 col-sm-6 mb-4">
-            <div className="s-card border-0 shadow rounded p-5">
-                <div className="card-body"> <i className="fa fa-user icon-lg icon-orange icon-bg-orange icon-bg-circle mb-3"></i>
-                    <h4 className="mt-4 mb-3 s-subtitle">Usability Testing</h4>
-                    <p>Testing your design informally on passers-by risks include inaccurate data, It represents users requirements. </p>
-                </div>
-            </div>
-        </div>
-        <div className="col-lg-3 col-sm-6 mb-4">
-            <div className="s-card border-0 shadow rounded p-5">
-                <div className="card-body"> <i className="fa fa-envelope icon-lg icon-blue icon-bg-blue icon-bg-circle mb-3"></i>
-                    <h4 className="mt-4 mb-3 s-subtitle">UX Prototyping</h4>
-                    <p>The process of prototyping—from creating simple wireframes to testing fully functional mock-ups—is one of the most potent set of skills.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> */}
     </div>
 </>
   )

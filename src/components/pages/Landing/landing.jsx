@@ -145,7 +145,7 @@ Tools and applications like data storage, networking, and software.
                 <div className="card-body"> <i className="fa fa-comments icon-lg icon-red icon-bg-red icon-bg-circle mb-3"></i>
                     <h4 className="mt-4 mb-3 s-subtitle">Consulting</h4>
                     <p>Help you address the risks and opportunities that digital technologies 
-Are created for your business. Develop an innovative and the public.</p>
+Are created for your business. Develop an innovative and solve public problems.</p>
                 </div>
             </div>
         </div>
@@ -153,7 +153,7 @@ Are created for your business. Develop an innovative and the public.</p>
             <div className="s-card border-0 shadow rounded p-5">
                 <div className="card-body"> <i className="fa fa-search-plus icon-lg icon-green icon-bg-green icon-bg-circle mb-3"></i>
                     <h4 className="mt-4 mb-3 s-subtitle">SEO Optimization</h4>
-                    <p>SEO can take your internet platforms to the next level, earning your company to higher than traditional marketing growth.</p>
+                    <p>SEO can take your internet platforms to the next level, earning your company to higher than traditional marketing growth.In our library analogy.</p>
                 </div>
             </div>
         </div>
