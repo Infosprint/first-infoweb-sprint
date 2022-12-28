@@ -57,41 +57,6 @@ const Landing = () => {
       <div className="row justify-content-center g-2 align-baseline"> 
     <video src={video} className="l-video" controls autoPlay muted /> 
 </div>
-      {/* <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-    <div className="bg_image text-center shadow-1-strong rounded text-white"
-  style={{height: '585px'}}>
-      
-                    </div>
-    </div>
-    </div>
-    </div> */}
-    {/* <div className="align-items-center align-self-center text-center">
-           <div class="carousel-caption d-none d-md-block" style={{marginBottom: '180px'}}>
-                        <div className="row justify-content-center">
-                            <h1 className="l-heading text-capitalize">
-                                digital transformation with InfoSprint Technologies
-                            </h1>
-                        </div>
-                        <div className="row justify-content-center">
-                            <p className="la-para">
-                            We Info sprint Technologies help you dream big with ur business.
-                            </p>
-                        </div>
-                        <div className="row justify-content-center">
-                            <div className="col-4 align-items-center align-self-center">
-                                <a href="/contactus" className="btn btn-lg btn-warning l-btn-1">
-                                    <span className="l-gs text-capitalize">get started</span>
-                                </a>
-                            </div>
-                        </div>
-      </div>
-                        
-                    </div> */}
-     
-      {/* </div> */}
-           
             <div className="row justify-content-between">
             <div className="services pd align-center">
             <div className="col-lg-12 text-center">
@@ -99,122 +64,131 @@ const Landing = () => {
         </div>
             <p className="text-center h-para pb-3">We believe in a hands-on approach on all projects. That is why a Director of the firm will always be in control of the key functions on our projects. 
             It is equipped with the latest technology and has the necessary staff and resources to ensure the best professional service is provided at all times.</p>
-            {/* <div className="row row-cols-1 row-cols-md-3 g-4"> */}
-            <div className="s-container">
-    <div className="row">
-        <div className="col-lg-3 col-sm-6 mb-4">
-            <div className="s-card border-0 shadow rounded p-5">
-                <div className="card-body"> <i className="fa fa-object-ungroup icon-lg icon-primary icon-bg-primary icon-bg-circle mb-3"></i>
-                    <h4 className="mt-4 mb-3 s-subtitle">Networking</h4>
-                    <p>The exchange of information and ideas among people with a common profession
+            <section class="section-big main-color">
+   <div class="container">
+
+      <div class="row">
+         <div class="col-md-12 pb-20 text-center"> 
+            
+            <div class="exp-separator center-separator">
+               <div class="exp-separator-inner">
+               </div>
+            </div>
+
+         </div>
+      </div>
+
+      <div class="row">
+         <div class="col-md-4">
+            <ul class="i-list medium">
+               <li class="i-list-item">
+                  <div class="icon"> <i class="fa fa-desktop"></i> </div>
+
+                  <div class="icon-content">
+                     <h3 class="l-title">Networking</h3>
+                     <p class="sub-title">
+                     The exchange of information and ideas among people with a common profession
 Or special interest, Usually in an informal social setting.
-</p>
-                </div>
-            </div>
-        </div>
-        <div className="col-lg-3 col-sm-6 mb-4">
-            <div className="s-card border-0 shadow rounded p-5">
-                <div className="card-body"> <i className="fa fa-users icon-lg icon-yellow icon-bg-yellow icon-bg-circle mb-3"></i>
-                    <h4 className="mt-4 mb-3 s-subtitle">Social Activity</h4>
-                    <p>A self-regulating business model that helps a company be socially
+                     </p>
+                  </div>
+                  <div class="iconlist-timeline"></div>
+               </li>
+               <li class="i-list-item">
+                  <div class="icon"> <i class="fa fa-code"></i> </div>
+
+                  <div class="icon-content">
+                     <h3 class="l-title">Social Activity</h3>
+                     <p>
+                     A self-regulating business model that helps a company be socially
 Accountable to itself, its stakeholders, and the public and the users can also use.
-</p>
-                </div>
-            </div>
-        </div>
-        <div className="col-lg-3 col-sm-6 mb-4">
-            <div className="s-card border-0 shadow rounded p-5">
-                <div className="card-body"> <i className="fa fa-desktop icon-lg icon-purple icon-bg-purple icon-bg-circle mb-3"></i>
-                    <h4 className="mt-4 mb-3 s-subtitle">Web Design</h4>
-                    <p>We make creative website using imagination and technology to help brands grow in an age of Digital transformation, and the public.</p>
-                </div>
-            </div>
-        </div>
-        <div className="col-lg-3 col-sm-6 mb-4">
-            <div className="s-card border-0 shadow rounded p-5">
-                <div className="card-body"> <i className="fa fa-cloud icon-lg icon-cyan icon-bg-cyan icon-bg-circle mb-3"></i>
-                    <h4 className="mt-4 mb-3 s-subtitle">Cloud Service</h4>
-                    <p>The delivery of different services through the internet which includes 
+                     </p>
+                  </div>
+                  <div class="iconlist-timeline"></div>
+               </li>
+               <li class="i-list-item">
+                  <div class="icon"> <i class="fa fa-paper-plane"></i> </div>
+
+                  <div class="icon-content">
+                     <h3 class="l-title">Web Design</h3>
+                     <p>
+                     We make creative website using imagination and technology to help brands grow in an age of Digital transformation, and the public.
+                     </p>
+                  </div>
+               </li>
+            </ul>
+         </div>
+         <div class="col-md-4">
+            <ul class="i-list medium">
+               <li class="i-list-item">
+                  <div class="icon"> <i class="fa fa-diamond"></i> </div>
+                  <div class="icon-content">
+                     <h3 class="l-title">Cloud Services</h3>
+                     <p class="sub-title">
+                     The delivery of different services through the internet which includes 
 Tools and applications like data storage, networking, and software.
-</p>
-                </div>
-            </div>
-        </div>
-        <div className="col-lg-3 col-sm-6 mb-4">
-            <div className="s-card border-0 shadow rounded p-5">
-                <div className="card-body"> <i className="fa fa-comments icon-lg icon-red icon-bg-red icon-bg-circle mb-3"></i>
-                    <h4 className="mt-4 mb-3 s-subtitle">Consulting</h4>
-                    <p>Help you address the risks and opportunities that digital technologies 
-Are created for your business. Develop an innovative and solve public problems.</p>
-                </div>
-            </div>
-        </div>
-        <div className="col-lg-3 col-sm-6 mb-4">
-            <div className="s-card border-0 shadow rounded p-5">
-                <div className="card-body"> <i className="fa fa-search-plus icon-lg icon-green icon-bg-green icon-bg-circle mb-3"></i>
-                    <h4 className="mt-4 mb-3 s-subtitle">SEO Optimization</h4>
-                    <p>SEO can take your internet platforms to the next level, earning your company to higher than traditional marketing growth.In our library analogy.</p>
-                </div>
-            </div>
-        </div>
-        <div className="col-lg-3 col-sm-6 mb-4">
-            <div className="s-card border-0 shadow rounded p-5">
-                <div className="card-body"> <i className="fa fa-user icon-lg icon-orange icon-bg-orange icon-bg-circle mb-3"></i>
-                    <h4 className="mt-4 mb-3 s-subtitle">Usability Testing</h4>
-                    <p>The earlier issues are identified and fixed, the less expensive the fixes will be in terms of both staff time and possible impact to the schedule and major issues.</p>
-                </div>
-            </div>
-        </div>
-        <div className="col-lg-3 col-sm-6 mb-4">
-            <div className="s-card border-0 shadow rounded p-5">
-                <div className="card-body"> <i className="fa fa-envelope icon-lg icon-blue icon-bg-blue icon-bg-circle mb-3"></i>
-                    <h4 className="mt-4 mb-3 s-subtitle">UX Prototyping</h4>
-                    <p>The process of prototyping—from creating simple wireframes to testing fully functional mock-ups—is one of the most potent set of skills.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-  {/* <div className="col">
-    <div className="card">
-      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" className="card-img-top"
-        alt="Hollywood Sign on The Hill" />
-      <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">
-          This is a longer card with supporting text below as a natural lead-in to
-          additional content. This content is a little bit longer.
-        </p>
+                     </p>
+                  </div>
+                  <div class="iconlist-timeline"></div>
+               </li>
+               <li class="i-list-item">
+                  <div class="icon"> <i class="fa fa-recycle"></i> </div>
+                  <div class="icon-content">
+                     <h3 class="l-title">Consulting</h3>
+                     <p>
+                     Help you address the risks and opportunities that digital technologies 
+Are created for your business. Develop an innovative and solve public problems
+                     </p>
+                  </div>
+                  <div class="iconlist-timeline"></div>
+               </li>
+               <li class="i-list-item">
+                  <div class="icon"> <i class="fa fa-check"></i> </div>
+                  <div class="icon-content">
+                     <h3 class="l-title">SEO Optimization</h3>
+                     <p>
+                     SEO can take your internet platforms to the next level, earning your company to higher than traditional marketing growth.In our library analogy.
+                     </p>
+                  </div>
+               </li>
+            </ul>
+         </div>
+         <div class="col-md-4">
+            <ul class="i-list medium">
+               <li class="i-list-item">
+                  <div class="icon"> <i class="fa fa-codepen"></i> </div>
+                  <div class="icon-content">
+                     <h3 class="l-title">Usability Test</h3>
+                     <p class="sub-title">
+                     The earlier issues are identified and fixed, the less expensive the fixes will be in terms of both staff time and possible impact to the schedule and major issues.
+                      </p>
+                       
+                  </div>
+                  <div class="iconlist-timeline"></div>
+               </li>
+               <li class="i-list-item">
+                  <div class="icon"> <i class="fa fa-newspaper-o"></i> </div>
+                  <div class="icon-content">
+                     <h3 class="l-title">UX Prototyping</h3>
+                     <p>
+                     The process of prototyping—from creating simple wireframes to testing fully functional mock-ups—is one of the most potent set of skills.
+                     </p>
+                  </div>
+                  <div class="iconlist-timeline"></div>
+               </li>
+               <li class="i-list-item">
+                  <div class="icon"> <i class="fa fa-heart-o"></i> </div>
+                  <div class="icon-content">
+                     <h3 class="l-title">Digital Marketing</h3>
+                     <p>
+                     Digital marketing is the promotion of your business, brand, products, or services to your target audience on desktop, mobile, and smart TV screens.
+                     </p>
+                  </div>
+               </li>
+            </ul>
+         </div>
       </div>
-    </div>
-  </div>
-  <div className="col">
-    <div className="card">
-      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" className="card-img-top"
-        alt="Palm Springs Road" />
-      <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">
-          This is a longer card with supporting text below as a natural lead-in to
-          additional content. This content is a little bit longer.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div className="col">
-    <div className="card">
-      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" className="card-img-top"
-        alt="Los Angeles Skyscrapers" />
-      <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">
-        This is a longer card with supporting text below as a natural lead-in to
-          additional content. This content is a little bit longer.
-          </p>
-      </div>
-    </div>
-  </div> */}
-{/* </div> */}
+   </div>
+</section>
         </div>
         </div>
         <div className="row justify-content-center s-tr pb-5">
@@ -232,7 +206,8 @@ channels.Companies should invest time in creating communication strategies since
 A brand is likely to fail without a successful strategy. People must be aware that certain goods and services exist in order 
 for them to make a purchase, and brand communication makes this knowledge possible. Making a decision on how to communicate is crucial,
  but so is the frequency and accessibility of that communication.
-                      <Link to='/products' style={{fontSize: '19px'}}>Learn More</Link>
+                      {/* <Link to='/products' style={{fontSize: '19px'}}>Learn More</Link> */}
+                      <a href='/products' className="btn btn-active btn-primary">Learn More</a>
                       </p>
                   </div>
               </div>

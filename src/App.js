@@ -14,20 +14,10 @@ import ContactUs from './components/pages/ContactUs/contact';
 import Products from './components/pages/Products/products';
 import QAservices from './components/pages/QAServices/QAServices';
 import Mobilencx from './components/pages/MobileNCX/Mobilencx';
+import JobApply from './components/pages/JobApply/JobApply';
+import Industry from './components/pages/Industry/Industry';
 
 function App() {
-  // const componentDidMount=()=>{
-  //   (function (d, m) {
-  //     var kommunicateSettings =
-  //       { "appId": "1866d24e52cdc03c0b4f1bfd40734fb98", "popupWidget": true, "automaticChatOpenOnNavigation": true };
-  //     var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
-  //     s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
-  //     var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
-  //     window.kommunicate = m; m._globals = kommunicateSettings;
-  //   })(document, window.kommunicate || {});
-  // }
-
-  // componentDidMount()
   return (
     <div
       style={{
@@ -48,6 +38,8 @@ function App() {
         <Route path='/qaservices' element={<QAservices />} />
         <Route path='/mobilencx' element={<Mobilencx />} />
         <Route path='/businessconsulting' element={<Businessconsulting/>} />
+        <Route path='/career/success' element={<JobApply />} />
+        <Route path='/industry' element={<Industry />} />
        </Routes>
        <Footer />
        </Router>

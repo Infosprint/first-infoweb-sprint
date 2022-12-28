@@ -23,7 +23,7 @@ const Career = () => {
     <span className="function">Hyderabad</span>
   </div>
   <div className="box-col box-20 text-right">
-    <a className="joblink" href="./contactus">Apply</a>
+    <a className="joblink" href="/career/success">Apply</a>
   </div>
 </div>
 <div className="box1">
@@ -33,7 +33,7 @@ const Career = () => {
   </div>
   
   <div className="box-col box-20 text-right">
-    <a className="joblink" href="./contactus">Apply</a>
+    <a className="joblink" href="/career/success">Apply</a>
   </div>
   
 </div>
@@ -43,7 +43,7 @@ const Career = () => {
     <span className="function">Hyderabad</span>
   </div>
   <div className="box-col box-20 text-right">
-   <a className="joblink" href="contactus">Apply</a>
+   <a className="joblink" href="/career/success">Apply</a>
   </div>
   </div>
   <div className="box1">
@@ -52,7 +52,7 @@ const Career = () => {
     <span className="function">Hyderabad</span>
   </div>
   <div className="box-col box-20 text-right">
-   <a className="joblink" href="contactus">Apply</a>
+   <a className="joblink" href="/career/success">Apply</a>
   </div>
   </div>
   </section>

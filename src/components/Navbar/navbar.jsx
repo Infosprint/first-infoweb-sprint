@@ -76,10 +76,13 @@ const Navbar = () => {
                 </ul>
               </li>
               <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/industry">Industries</a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/career">Career</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/contactus">Contact Us</a>
+                <a className="nav-link active" aria-current="page" href="/contactus">Contactus</a>
               </li>
             </ul>
           </div>

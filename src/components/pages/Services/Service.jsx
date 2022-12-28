@@ -40,7 +40,7 @@ Companies should invest time in creating communication strategies since they are
 A brand is likely to fail without a successful strategy. People must be aware that certain goods and services exist in order 
 for them to make a purchase, and brand communication makes this knowledge possible. Making a decision on how to communicate is crucial,
 but so is the frequency and accessibility of that communication. 
-                      <Link to='/businesstrans' style={{fontSize: '17px'}}>Read More</Link>
+                      <a href='/businesstrans' className="btn btn-active btn-primary">Read More</a>
                       </p>
                   </div>
               </div>
@@ -64,7 +64,7 @@ but so is the frequency and accessibility of that communication.
 while keeping their expenses low at the same time. While some businesses stay ahead of the curve of revenue demands, most of the businesses 
 struggle to stay abreast with the demands in this competitive market due to lack of proper consulting. Selecting the right consultant allows a business to grow and increase
 potential limit instead of maintaining long-lasting status of either being small-scaled business or medium scaled.
-                      <Link to='/businessconsulting' style={{fontSize: '17px'}}>Read More</Link>
+                      <a href='/businessconsulting' className="btn btn-active btn-primary">Read More</a>
                       </p>
                   </div>
               </div>
@@ -82,7 +82,7 @@ Every time a prospective customer or client connects with a certain brand, brand
 to a newsletter or discovering a logo online. Creating a recognizable brand will improve the effectiveness of all communication 
 channels.
 Companies should invest time in creating communication strategies since they are crucial to creating a cohesive brand. 
-                      <Link to='/digitalmarketing' style={{fontSize: '17px'}}>Read More</Link>
+                      <a href='/digitalmarketing' className="btn btn-active btn-primary">Read More</a>
                       </p>
                   </div>
               </div>
@@ -103,7 +103,7 @@ Companies should invest time in creating communication strategies since they are
                       The CX-Mobile is also highly configurable with a range of energy levels, networking capabilities and menu of optional scanning features. 
 Designed for travel on public roads and highways, the system is available with a choice of truck options. 
 Plus you can count on Leidos services and support teams to fully integrate the system into your workflow.
-                      <Link to='/mobilencx' style={{fontSize: '17px'}}>Read More</Link>
+                      <a href='/mobilencx' className="btn btn-active btn-primary">Read More</a>
                       </p>
                   </div>
               </div>
@@ -120,7 +120,7 @@ Plus you can count on Leidos services and support teams to fully integrate the s
 While internal user testing is an option for some companies, it won’t replace thorough QA testing. That’s because non-technical employees might be able weigh in on 
 UI or design glitches, but they won’t find problems at the database level.
 Quality assurance services, on the other hand, specialize in uncovering bugs, and can put your product through rigorous testing, both manual and automated.
-                      <Link to='/businesstrans' style={{fontSize: '17px'}}>Read More</Link>
+                      {/* <a href='/businesstrans' style={{fontSize: '17px'}}>Read More</a> */}
                       </p>
                   </div>
               </div>
