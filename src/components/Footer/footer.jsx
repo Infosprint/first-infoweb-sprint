@@ -50,8 +50,7 @@ export function Footer() {
                             <img src={Logo} alt="" width="100%" height="35" />
                             </div>
                             <div className="footer-text">
-                                <p>Infosprint Technologies is a global product cum service-based IT start up empowered with Innovative Research & Development, Implementation and Rapid Delivery.
-                                     We specialise in Web Designing , Mobile Applications, and also render services for hedge clients over Digital Marketing & Consultancy in cross-functional Domains.</p>
+                                <p>Infosprint Technologies is your reliable, innovative, and full-scale business transformation partner. We enable businesses to adopt cutting-edge technologies and thereby help them to achieve legacy modernization. Our USP is definitely directed at realizing the clients' IT needs with an offer of custom digital transformation strategy. We further collaborative efforts to re-imagine IT. This we do capably through prime partnerships and collaborations with top-notch providers of IT solutions like Pega, Appian, Salesforce, SAP, Automation Anywhere and others. </p>
                             </div>
                             <div className="footer-social-icon">
                                 <span>Follow us</span>

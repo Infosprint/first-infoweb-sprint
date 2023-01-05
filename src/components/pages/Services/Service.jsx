@@ -28,18 +28,21 @@ const Services = () => {
             <div className="row justify-content-center s-tr pb-3">
               <div className="col-lg-6 align-items-center align-self-center">
                   <div className="row justify-content-center">
-                      <h1 className="section-title text-center">Business Transformation</h1>
+                      <h1 className="section-title text-center">
+DIGITAL TRANSFORMATION
+</h1>
                   </div>
                   <div className="row justify-content-center p-3">
                       <p className="h-para">
-                      Advertising, social media, and customer evaluations are just a few examples of the activities that make up brand communication. 
-Every time a prospective customer or client connects with a certain brand, brand communication occurs. It can entail subscribing 
-to a newsletter or discovering a logo online. Creating a recognizable brand will improve the effectiveness of all communication 
-channels. 
-Companies should invest time in creating communication strategies since they are crucial to creating a cohesive brand. 
-A brand is likely to fail without a successful strategy. People must be aware that certain goods and services exist in order 
-for them to make a purchase, and brand communication makes this knowledge possible. Making a decision on how to communicate is crucial,
-but so is the frequency and accessibility of that communication. 
+                      Infosprint promotes an innovative and collaborative effort to re-imagine IT. This we do capably by leveraging on best of IT solutions. Basically, our digital transformation process covers the macro and micro expectations of your organization's business systems. 
+At the macro level we focus on aligning custom and innovative technologies with the established objectives and goals of your business. At the micro level we evolve a formalized plan on how, when, and what kind of strategic upgrades your business should make to core systems to achieve the needful digital transformation.
+Significantly, our digital transformation strategy leverages on the new and emerging technologies. The focus of our digital transformation strategy is directed at
+●	Making changes to your business models
+●	Bringing innovations to your products and services
+●	Developing new value chains to meet the changing needs of your customers
+Infosprint' digital transformation services help businesses to improve their business processes and leverage on new business models and gain additional capabilities. So, by means of a consistent and reliable digital transformation strategy businesses can derive greater value from the available data, processes, information, and technology.
+
+
                       <a href='/businesstrans' className="btn btn-active btn-primary">Read More</a>
                       </p>
                   </div>
@@ -60,10 +63,13 @@ but so is the frequency and accessibility of that communication.
                   </div>
                   <div className="row justify-content-center">
                       <p className="h-para">
-                      Present economic situation states that businesses need ways to make way for efficient operations to increase their revenue generation 
-while keeping their expenses low at the same time. While some businesses stay ahead of the curve of revenue demands, most of the businesses 
-struggle to stay abreast with the demands in this competitive market due to lack of proper consulting. Selecting the right consultant allows a business to grow and increase
-potential limit instead of maintaining long-lasting status of either being small-scaled business or medium scaled.
+                      Infosprint Technologies is your reliable, trusted and innovative business consulting partner. Our primary objective is to drive value for businesses through an offer of an end-to-end enterprise application software, database, analytics, intelligent technologies, and experience management. We capably help businesses of all sizes and in all industries to operate profitably, adapt continuously, and achieve their business goals and customers' delight.
+Infosprint drives value through innovative business consulting services. Our proven expertise in evolving custom appian, Salesforce and SAP solutions stands testimony. 
+●	By leveraging on the open, enterprise-grade, and low-code Appian platform, we accelerate customers’ businesses by discovering, designing, and automating their most important processes.  
+●	By leveraging on Salesforce's CRM we help to analyze customer data and know how your current customers interact with your business. This information is helpful in bringing needful changes to your service or product. Significantly, we help you help you to discover new ways to manage customer relationships. 
+●	By leveraging on SAP we create a strong and interconnected business. We ensure that your business is greatly agile, resilient, and able to make the decisions needed to drive long-term growth. 
+
+
                       <a href='/businessconsulting' className="btn btn-active btn-primary">Read More</a>
                       </p>
                   </div>
@@ -73,15 +79,14 @@ potential limit instead of maintaining long-lasting status of either being small
             <div className="row justify-content-center s-tr pb-3">
               <div className="col-lg-6 align-items-center align-self-center">
                   <div className="row justify-content-center">
-                      <h1 className="section-title text-center">Digital Marketing</h1>
+                      <h1 className="section-title text-center">BPM</h1>
                   </div>
                   <div className="row justify-content-center p-3">
                       <p className="h-para">
-                      Advertising, social media, and customer evaluations are just a few examples of the activities that make up brand communication. 
-Every time a prospective customer or client connects with a certain brand, brand communication occurs. It can entail subscribing 
-to a newsletter or discovering a logo online. Creating a recognizable brand will improve the effectiveness of all communication 
-channels.
-Companies should invest time in creating communication strategies since they are crucial to creating a cohesive brand. 
+                      Infosprint' Business Process Management practice imparts phenomenal value to your business. By leveraging on our seamless expertise in appian solutions, we bring to each client engagement our revolutionary low-code capabilities. We capably do this by streamlining complex processes, and giving each business a competitive edge over others.
+We go beyond what appian Business Process Management Software can offer. Our BPM solutions include an end-to-end BPM Suite that covers process, rules, design tools, forms, analytics, mobile, content, collaboration, data access, SOA and Integration, visibility and transparency.
+By leveraging on appian solutions, we design, execute, manage, and optimize each business' process to achieve greater efficiency and higher growth. Significantly, our BPM solutions are directed at achieving for each business a greater level of collaboration that includes customers, workers, partners and suppliers.
+
                       <a href='/digitalmarketing' className="btn btn-active btn-primary">Read More</a>
                       </p>
                   </div>
@@ -96,13 +101,16 @@ Companies should invest time in creating communication strategies since they are
                 </div>
               <div className="col-lg-6 align-items-center align-self-center">
                   <div className="row justify-content-center">
-                      <h1 className="section-title text-center">MobileNCX</h1>
+                      <h1 className="section-title text-center">MOBILE & CX</h1>
                   </div>
                   <div className="row justify-content-center">
                       <p className="h-para">
-                      The CX-Mobile is also highly configurable with a range of energy levels, networking capabilities and menu of optional scanning features. 
-Designed for travel on public roads and highways, the system is available with a choice of truck options. 
-Plus you can count on Leidos services and support teams to fully integrate the system into your workflow.
+                      Infosprint understands that great CX is primary to win new customers, strengthen existing relationships, and make people happier. A successful mobile app is one that can create a recall effect. Simply speaking, an effective mobile CX solution makes the users use the app again and again. Significantly, we offer a seamless digital experience to your business different marketing channels. 
+Our mobile CX solutions help your business to achieve consistently an excellent customer experience.  We achieve strong personalization and seamless connection by integrating all customer touch points and innovations like speech recognition, artificial intelligence (AI), machine learning and data analytics. Instead of simply optimizing digital resources for mobile, we help businesses to build a mobile-first experience for their customers. Our mobile-first CX strategy puts focus on three areas.
+●	Mobile App: We establish the precedence of mobile apps over web apps. It means greatly reduced number of taps to browse and checkout, and higher conversion rates for your business.
+●	Loading Speed: In line with the mobile-first user experience we ensure that no page takes more than a few seconds to load.
+●	Social Commerce: We help your business by creating engaging, and interactive mobile-first strategies. This will help you to increase sales, engage with, and build relationships with customers and develop greater customer insights.
+
                       <a href='/mobilencx' className="btn btn-active btn-primary">Read More</a>
                       </p>
                   </div>
@@ -116,10 +124,9 @@ Plus you can count on Leidos services and support teams to fully integrate the s
                   </div>
                   <div className="row justify-content-center p-3">
                       <p className="h-para">
-                      Software programs are more complex than ever, and with the pressure to continually release new updates and features, traditional testing strategies just can’t keep up.
-While internal user testing is an option for some companies, it won’t replace thorough QA testing. That’s because non-technical employees might be able weigh in on 
-UI or design glitches, but they won’t find problems at the database level.
-Quality assurance services, on the other hand, specialize in uncovering bugs, and can put your product through rigorous testing, both manual and automated.
+                      Infosprint adheres and upholds the best practices of quality assurance. Our well-defined, innovative and comprehensive QA process includes highly functional and most comprehensive top-down process. We bring clarity to the QA process through a milestone based approach and seamless automation. We also ensure that the QA process begins early with an assurance on total transparency.
+Understandably, we consider the primary objectives of digital transformation are met only through innovative and full-scale QA services. To achieve this, our QA experts follow the industry best Automation framework. Our team of QA experts brings hands-on experience to each software project. The team can capably address the real-time challenges faced by the businesses during their digital transformation process.
+
                       {/* <a href='/businesstrans' style={{fontSize: '17px'}}>Read More</a> */}
                       </p>
                   </div>

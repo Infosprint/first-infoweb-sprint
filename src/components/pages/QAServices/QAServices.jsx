@@ -18,15 +18,19 @@ const QAservices = () => {
                     </div>
                     
             <h3 className="title text-center pt-5">Setup Plan with Time and Costs</h3>
-            <p className="h-para p-3">Manual testing is when a human tester actually sits down at the computer (or mobile device) and uses the software themselves. The main benefit to manual testing 
-is that you can get real-time feedback without having to design an automated test.
-The downside to manual testing is that it takes time for an individual to perform the test, 
-and there’s a greater chance of human error or inconsistent behavior.
-Automated testing is performed using a test script that can be run repeatedly, 
-either by focusing on a specific aspect of the program, or performing the same actions in
-different ways to see whether they all get the desired result.
-The benefit to automated testing is that you can dive deep and find bugs
-that a human tester can’t see, while avoid the variables that comes with manual testing.</p>
+            <p className="h-para p-3">Infosprint Technologies has created this Privacy Policy in order to demonstrate its commitment in respecting the privacy of its user(s) and protecting your personal information received during the use or access of our website.
+
+We have developed this Privacy Policy for you to understand how we collect, communicate and disclose and make use of personal information provided by you.
+
+• Collection and the purpose for which information may be collected
+
+We collect personal information by lawful and fair means and, wherever appropriate, with the knowledge or consent of the provider of such data or information.
+
+We collect and use your personal information solely with the objective of fulfilling the purpose(s) specified by us and for other compatible purposes only.
+
+Before or at the time of collecting personal information, we will identify the purposes for which information is being collected.
+
+You can visit or access our website without telling us who you are and without revealing any information on the same. However, there are times when we would require information from you. Our website may require you to give us your contact information like your name, email address, present job details, phone .</p>
                     <div class="row row-cols-1 row-cols-md-3 g-3 p-5">
     <div class="col">
     <div class="card">

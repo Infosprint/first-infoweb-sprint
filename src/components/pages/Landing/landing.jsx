@@ -60,10 +60,13 @@ const Landing = () => {
             <div className="row justify-content-between">
             <div className="services pd align-center">
             <div className="col-lg-12 text-center">
-            <h2 className="section-title">Services We Provide</h2>
+            <h2 className="section-title">About us</h2>
         </div>
-            <p className="text-center h-para pb-3">We believe in a hands-on approach on all projects. That is why a Director of the firm will always be in control of the key functions on our projects. 
-            It is equipped with the latest technology and has the necessary staff and resources to ensure the best professional service is provided at all times.</p>
+            <p className="text-center h-para pb-3">Infosprint Technologies is your reliable, innovative, and full-scale business transformation partner. We enable businesses to adopt cutting-edge technologies and thereby help them to achieve legacy modernization. Our USP is definitely directed at realizing the clients' IT needs with an offer of custom digital transformation strategy. We further collaborative efforts to re-imagine IT. This we do capably through prime partnerships and collaborations with top-notch providers of IT solutions like Pega, Appian, Salesforce, SAP, Automation Anywhere and others. 
+
+Infosprint' Business Consulting Services enable local and global organizations to realize their digital transformation goals and scale at speed. The key to our successful business consulting is in making your business future-proof and creating definite milestones in your digital transformation journey. Our custom, innovative and client-specific business transformation practices deliver exceptional results. We excel at what we do, and this definitely goes without saying. 
+
+</p>
             <section class="section-big main-color">
    <div class="container">
 
@@ -85,10 +88,9 @@ const Landing = () => {
                   <div class="icon"> <i class="fa fa-desktop"></i> </div>
 
                   <div class="icon-content">
-                     <h3 class="l-title">Networking</h3>
+                     <h3 class="l-title">Digital Transformation </h3>
                      <p class="sub-title">
-                     The exchange of information and ideas among people with a common profession
-Or special interest, Usually in an informal social setting.
+                     Infosprint' integrated approach to digital business transformation helps your business to drive sustainable growth through superior customer experiences. Also, our team's efforts are directed at keeping your team members inspired, motivated, and aligned to the business plan for digital transformation.
                      </p>
                   </div>
                   <div class="iconlist-timeline"></div>
@@ -97,10 +99,9 @@ Or special interest, Usually in an informal social setting.
                   <div class="icon"> <i class="fa fa-code"></i> </div>
 
                   <div class="icon-content">
-                     <h3 class="l-title">Social Activity</h3>
+                     <h3 class="l-title">Business Consulting</h3>
                      <p>
-                     A self-regulating business model that helps a company be socially
-Accountable to itself, its stakeholders, and the public and the users can also use.
+                     Infosrint' business consulting services are focused on optimizing the relationships between people, processes and technologies. Our business consulting experts help your organization to turn efficient and agile by adopting the right process automation tools.
                      </p>
                   </div>
                   <div class="iconlist-timeline"></div>
@@ -109,9 +110,9 @@ Accountable to itself, its stakeholders, and the public and the users can also u
                   <div class="icon"> <i class="fa fa-paper-plane"></i> </div>
 
                   <div class="icon-content">
-                     <h3 class="l-title">Web Design</h3>
+                     <h3 class="l-title">Cloud Technologies</h3>
                      <p>
-                     We make creative website using imagination and technology to help brands grow in an age of Digital transformation, and the public.
+                     Infosprint offers the latest, innovative and highly flexible cloud services. We further strategic partnerships with major cloud providers like AWS, Microsoft Azure and Salesforce on the basis of pay-as-you-go model. Our focus is definitely on technical alignment and joint development. Our cloud engineers help Salesforce customers to integrate with AWS and Microsoft Azure thereby extends their Salesforce capabilities.
                      </p>
                   </div>
                </li>
@@ -122,10 +123,9 @@ Accountable to itself, its stakeholders, and the public and the users can also u
                <li class="i-list-item">
                   <div class="icon"> <i class="fa fa-diamond"></i> </div>
                   <div class="icon-content">
-                     <h3 class="l-title">Cloud Services</h3>
+                     <h3 class="l-title">BPM</h3>
                      <p class="sub-title">
-                     The delivery of different services through the internet which includes 
-Tools and applications like data storage, networking, and software.
+                     Infosprint's Business Management Practice features low-code capabilities, streamlining of complex processes, higher process efficiency, and decreased time to market. All this we do by capably adopting niche technology solutions such as appian, PEGA, Salesforce and Automation Anywhere. 
                      </p>
                   </div>
                   <div class="iconlist-timeline"></div>
@@ -133,20 +133,20 @@ Tools and applications like data storage, networking, and software.
                <li class="i-list-item">
                   <div class="icon"> <i class="fa fa-recycle"></i> </div>
                   <div class="icon-content">
-                     <h3 class="l-title">Consulting</h3>
+                     <h3 class="l-title">Mobile & CX</h3>
                      <p>
-                     Help you address the risks and opportunities that digital technologies 
-Are created for your business. Develop an innovative and solve public problems
+                     Infosprint provides futuristic experiences to targeted customers. This we do by executing full-scale and vibrant Mobile and CX services. Significantly, we offer customized CX strategies for higher customer retention and greater customer delight.
                      </p>
                   </div>
                   <div class="iconlist-timeline"></div>
                </li>
                <li class="i-list-item">
-                  <div class="icon"> <i class="fa fa-check"></i> </div>
+                  <div class="icon"> <i class="fa fa-heart-o"></i> </div>
                   <div class="icon-content">
-                     <h3 class="l-title">SEO Optimization</h3>
+                     <h3 class="l-title">
+API Development</h3>
                      <p>
-                     SEO can take your internet platforms to the next level, earning your company to higher than traditional marketing growth.In our library analogy.
+                     Infosprint's API developers offer practical solutions that meet your organization's aspirations. We design and develop solutions as per your business requirements. Definitely, our API development practice allows for greater customization of the website or app content. We meet in total the needs of end-users and visitors, and make the user experience more flexible and personalized.
                      </p>
                   </div>
                </li>
@@ -157,9 +157,10 @@ Are created for your business. Develop an innovative and solve public problems
                <li class="i-list-item">
                   <div class="icon"> <i class="fa fa-codepen"></i> </div>
                   <div class="icon-content">
-                     <h3 class="l-title">Usability Test</h3>
+                     <h3 class="l-title">
+Digital Engineering</h3>
                      <p class="sub-title">
-                     The earlier issues are identified and fixed, the less expensive the fixes will be in terms of both staff time and possible impact to the schedule and major issues.
+                     Infosprint's digital engineering services feature custom portal development, user-friendly CMSs, and enhanced team collaboration. Our focused efforts are directed at streamlining complex workflows to achieve higher business performance.
                       </p>
                        
                   </div>
@@ -168,22 +169,24 @@ Are created for your business. Develop an innovative and solve public problems
                <li class="i-list-item">
                   <div class="icon"> <i class="fa fa-newspaper-o"></i> </div>
                   <div class="icon-content">
-                     <h3 class="l-title">UX Prototyping</h3>
+                     <h3 class="l-title">Quality Assurance</h3>
                      <p>
-                     The process of prototyping—from creating simple wireframes to testing fully functional mock-ups—is one of the most potent set of skills.
+                     Infosprint offers innovative and industry best automation framework. Our QA experts address holistically the challenges of your digital transformation journey. We adhere with proven QA methodologies and applications to achieve enhanced quality of each IT solution, assured security, and greater customer experience.
                      </p>
                   </div>
                   <div class="iconlist-timeline"></div>
                </li>
                <li class="i-list-item">
-                  <div class="icon"> <i class="fa fa-heart-o"></i> </div>
+                  <div class="icon"> <i class="fa fa-newspaper-o"></i> </div>
                   <div class="icon-content">
-                     <h3 class="l-title">Digital Marketing</h3>
+                     {/* <h3 class="l-title">Quality Assurance</h3>
                      <p>
-                     Digital marketing is the promotion of your business, brand, products, or services to your target audience on desktop, mobile, and smart TV screens.
-                     </p>
+                     Infosprint offers innovative and industry best automation framework. Our QA experts address holistically the challenges of your digital transformation journey. We adhere with proven QA methodologies and applications to achieve enhanced quality of each IT solution, assured security, and greater customer experience.
+                     </p> */}
                   </div>
+                  <div class="iconlist-timeline"></div>
                </li>
+         
             </ul>
          </div>
       </div>
@@ -196,7 +199,7 @@ Are created for your business. Develop an innovative and solve public problems
                     <img src={Img1} alt="img5" className="se-img-5" />
                 </div>
               <div className="col-lg-6 align-items-center align-self-center">
-                      <h1 className="section-title text-center">Products</h1>
+                      <h1 className="section-title text-center">WHY INFOSPRINT ?</h1>
                   <div className="row justify-content-center">
                       <p className="h-para">
                       Advertising, social media, and customer evaluations are just a few examples of the activities that make up brand communication. 
@@ -300,17 +303,17 @@ for them to make a purchase, and brand communication makes this knowledge possib
   </div>
 </div>
 </div>
-            <div className="row justify-content-around"  style={{backgroundImage: "url('https://scx1.b-cdn.net/csz/news/800/2017/theoreticala.jpg')",
+            {/* <div className="row justify-content-around"  style={{backgroundImage: "url('https://scx1.b-cdn.net/csz/news/800/2017/theoreticala.jpg')",
             height: '585px',backgroundSize: 'cover'}}>
-                <div className="col-md-7 align-items-center align-self-center text-center py-md-3 form-back">
-                    <div className="row justify-content-center mt-5 mt-md-2 pb-3">
-                        <div className="col-sm-8 col-md-10 align-items-center align-self-center">
-                            <h2 className="l-sysst text-capitalize">
+                <div className="col-md-7 align-items-center align-self-center text-center py-md-3 form-back"> */}
+                    {/* <div className="row justify-content-center mt-5 mt-md-2 pb-3"> */}
+                        {/* <div className="col-sm-8 col-md-10 align-items-center align-self-center"> */}
+                            {/* <h2 className="l-sysst text-capitalize">
                                 start your success story today
-                            </h2>
-                        </div>
-                    </div>
-                    <form onSubmit={handleForm}>
+                            </h2> */}
+                        {/* </div> */}
+                    {/* </div> */}
+                    {/* <form onSubmit={handleForm}>
                 <div className="row justify-content-center">
                 <div className="form-group col-md-8">
                              <input 
@@ -369,9 +372,9 @@ for them to make a purchase, and brand communication makes this knowledge possib
                       value="Submit"
                     />
                   </div>
-              </form>
-                </div>
-            </div>
+              </form> */}
+                {/* </div> */}
+            {/* </div> */}
             {/* <div className="row justify-content-between">
             <div className="services pd">
             <h3 className="title text-center">Products</h3>
